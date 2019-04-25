@@ -45,7 +45,7 @@ namespace ChatService.ClientApp
         public void ConnectionFailed()
         {
             connectionFailed = true;
-            this.Close();
+            lblConnectionFailed.Content = "Connection has been lost. Close an application";
         }
 
         protected override void OnClosing(CancelEventArgs e)

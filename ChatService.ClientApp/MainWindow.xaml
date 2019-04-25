@@ -38,5 +38,6 @@
         <ContentControl Grid.Row="0" DockPanel.Dock="Top" Content="{Binding CurrentContent, NotifyOnSourceUpdated=True}" />
         <Label Content="Last Activity: " HorizontalAlignment="Left" Margin="10,5,0,0" Grid.Row="1" VerticalAlignment="Center" Width="69" FontSize="10" />
         <Label Content="{Binding LastActivity}" HorizontalAlignment="Left" Margin="70,8,0,3" Grid.Row="1" VerticalAlignment="Center" Width="250" FontSize="10" FontWeight="Bold"/>
+        <Label Name="lblConnectionFailed" Foreground="#FFF11010" HorizontalAlignment="Left" Margin="459,5,0,0" Grid.Row="1" VerticalAlignment="Top" Width="330" FontWeight="Bold" />
     </Grid>
 </Window>
